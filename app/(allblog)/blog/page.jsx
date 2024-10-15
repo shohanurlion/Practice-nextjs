@@ -19,7 +19,7 @@ const page =async () => {
    {
     allpost.map((item)=>(
       <Link href={`/blog/${item.id}`}>
-      <div className='w-[800px] mx-auto mt-4'>
+      <div key={item.id} className='w-[800px] mx-auto mt-4'>
       <h2 className={`${agdasima.className} font-bold text-[25px]`}>Title:{item.title}</h2>
      </div>
       </Link>
