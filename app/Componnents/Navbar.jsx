@@ -21,6 +21,10 @@ export const Navbar = () => {
         {
             title:"Profile",
             path:'/profile'
+        },
+        {
+            title:"Login",
+            path:'/login'
         }
     ]
   return (
